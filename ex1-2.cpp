@@ -12,8 +12,10 @@ int main(void){
 	
 	if(x > y ){
 	    printf(" x > y ==> %d\n",x > y);
-	}else{
+	}else if(x < y){
 	    printf(" x < y ==> %d\n",x > y);
+	}else{
+	    printf(" x==y \n");
 	}
 	
 	return 0;
